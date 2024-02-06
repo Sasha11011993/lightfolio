@@ -303,6 +303,11 @@ footer .wrapper {
   transition: 0.3s;
 }
 
+.about--me .ui-accordion .ui-accordion-header:hover::after {
+  width: 22px;
+  height: 22px;
+}
+
 .about--me .ui-accordion .ui-accordion-header.ui-state-active::after {
   content: "";
   background-image: url(../images/arrows.svg);
@@ -313,5 +318,4 @@ footer .wrapper {
   right: 30px;
   transform: rotate(90deg);
   transition: 0.3s;
-  font-size: 60px;
 }
