@@ -292,27 +292,25 @@ footer .wrapper {
 }
 
 .about--me .ui-accordion .ui-accordion-header::after {
-  content: ">";
-  color: #000;
-  position: absolute;
+  content: "";
+  background-image: url(../images/arrows.svg);
   width: 16px;
   height: 16px;
-  top: 40%;
+  position: absolute;
+  top: 36%;
   right: 30px;
-  transform: rotate(90deg);
-  font-weight: 900;
+  transform: rotate(270deg);
   transition: 0.3s;
 }
 
 .about--me .ui-accordion .ui-accordion-header.ui-state-active::after {
-  content: ">";
-  color: #000;
-  position: absolute;
+  content: "";
+  background-image: url(../images/arrows.svg);
   width: 16px;
   height: 16px;
-  top: 40%;
+  position: absolute;
+  top: 36%;
   right: 30px;
-  transform: rotate(270deg);
-  font-weight: 900;
+  transform: rotate(90deg);
   transition: 0.3s;
 }
