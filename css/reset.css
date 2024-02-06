@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -79,9 +86,6 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -107,6 +111,10 @@ ol,
 ul {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+}
 blockquote,
 q {
   quotes: none;
@@ -123,10 +131,15 @@ table {
   border-spacing: 0;
 }
 
-a {
-  text-decoration: none;
+img {
+  max-width: 100%;
+  display: block;
 }
 
-button {
+input,
+button,
+textarea,
+select {
+  font: inherit;
   cursor: pointer;
 }

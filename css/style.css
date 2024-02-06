@@ -10,12 +10,6 @@
   font-style: normal;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .rectangle {
   padding: 11px 0;
   text-align: center;
@@ -42,9 +36,9 @@
 }
 
 .wrapper {
-  max-width: 1278px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1248px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin: auto;
 }
 
@@ -263,4 +257,29 @@ footer .wrapper {
 
 .footer--list--b li a {
   color: #525252;
+}
+
+.about--me {
+  padding: 132px 0;
+}
+
+.about--me .ui-accordion .ui-accordion-header {
+  background-color: transparent;
+  padding: 15px 10px;
+  border: solid black 1px;
+  border-radius: 18px;
+  color: black;
+}
+
+.ui-accordion .ui-accordion-content {
+  background-color: #ffebd8;
+  border: solid black 1px;
+  border-radius: 0 0 18px 18px;
+  border-top: none;
+}
+
+.about--me .ui-accordion .ui-accordion-header .ui-state-active {
+  background-color: #ffebd8;
+  border-bottom: none;
+  border-radius: 18px 18px 0 0;
 }
