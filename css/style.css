@@ -313,4 +313,5 @@ footer .wrapper {
   right: 30px;
   transform: rotate(90deg);
   transition: 0.3s;
+  font-size: 60px;
 }
